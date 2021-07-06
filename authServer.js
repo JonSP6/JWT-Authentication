@@ -33,4 +33,4 @@ function authenticateToken(req, res, next) {
   });
 }
 
-app.listen(4000, () => console.log("App 2 listening at PORT 4000"));
+app.listen(4000, () => console.log("authServer listening at PORT 4000"));

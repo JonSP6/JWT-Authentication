@@ -43,4 +43,4 @@ function authenticateToken(req, res, next) {
   });
 }
 
-app.listen(3000, () => console.log("App listening at PORT 3000"));
+app.listen(3000, () => console.log("Server listening at PORT 3000"));
